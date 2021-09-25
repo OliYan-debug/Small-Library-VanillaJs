@@ -35,9 +35,16 @@ let myLibrary = [
 
 btnAdd.addEventListener("click", () =>{
     if(inputContainer.classList.contains('removeItem')){
-        inputContainer.classList.remove('removeItem')}
+        inputContainer.classList.remove('removeItem')
+        btnAdd.innerText = "Close"
+        btnAdd.style.backgroundColor = "red"
+        btnAdd.style.color = "#0f0f0f"
+    }
     else{
         inputContainer.classList.add('removeItem')
+        btnAdd.innerText = "Add Book"
+        btnAdd.style.backgroundColor = "#0f0f0f"
+        btnAdd.style.color = "#ffff"
     }
 })
 
