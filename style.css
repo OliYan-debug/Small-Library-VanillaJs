@@ -1,0 +1,113 @@
+*{
+    font-family: 'Scheherazade New', serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
+body{
+    background-color: #4d5d53;
+    height: 100%;
+}
+#btn{
+    margin:10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #ccc;
+}
+.box{
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.minibox{
+    color: #ffff;
+    background-color: #0f0f0f;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    height:500px;
+    margin-bottom: 10px;
+    width:250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+.minibox img{
+    height: 200px;
+    width: 100%;
+}
+.minibox h4{
+    width:100%;
+    text-align: center;
+}
+.minibox p{
+    width:100%;
+    text-align: center;
+}
+.minibox button{
+    width: 45%;
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: #004953;
+    color:#ccc;
+    cursor:pointer;
+}
+.minibox button:last-child{
+    background-color: #ae0c00;
+    color:#0f0f0f;
+    font-weight: bolder;
+}
+.minibox button:hover{
+    border: 1px solid #fff
+}
+
+.container{
+    display: flex;
+    width:100%;
+    height:200px;
+}
+
+#form{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#form div{
+    width:400px;
+    text-align: center;
+    padding: 10px;
+}
+#form input[type=text]{
+    width:100%;
+    height:30px;
+    
+}
+#form input{
+    padding: 5px;
+}
+#form input[type=submit]{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.removeItem{
+    display: none!important;
+}

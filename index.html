@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>#</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <button id="btn"">Add Book</button>
+        <div class="container removeItem">
+            <form id="form">
+                <div>
+                    <label for="title">Title</label>
+                    <input id="title" type="text" name="title" required placeholder="Book Title*">
+                </div>
+                <div>
+                    <label for="author">Author<p>
+                    <input id="author" type="text" name="author" placeholder="Book Author">
+                </div>
+                <div>
+                    <label for="image">Image<p>
+                    <input id="image" type="text" name="image" placeholder="Image Link">
+                </div>
+                <div>
+                    <label for="pages">Pages<label>
+                    <input id="pages" type="number" name="pages" placeholder="Nº Pages">
+                </div>
+
+                <div>
+                    <p>Status</p>
+                    <label for="Status">Reading<label>
+                    <input class="radio" type="radio" value="Reading" name="Status" checked>
+                    <label for="Status">Finished</label>
+                    <input class="radio" type="radio" value="Finished" name="Status">
+                </div>
+                <div>
+                <input id="btnSubmit" type="submit" value ="Add">
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            
+        </div>
+    <script src='script.js'></script>
+    </body>
+</html>
+
+
