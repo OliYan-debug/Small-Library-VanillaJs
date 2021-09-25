@@ -134,13 +134,18 @@ footer p{
     text-align: center;
 }
 footer a{
+    display: flex;
     color:#0f0f0f;
     text-decoration: none;
     background-color: #004953;
     border: 1px dashed black;
-    padding: 5px; 
+    padding: 5px;
+    align-items: center;
 }
 
 footer a:hover{
     color: white;
+}
+footer img{
+    width:15px;
 }
