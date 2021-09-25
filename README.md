@@ -28,6 +28,6 @@
         statusBtn.setAttribute("onclick", `changeStatus(${myLibrary.indexOf(book)})`);
         ```
 #### The full resolution can be found here:
-[Javascript](https://github.com/OliYan-debug/Small-Library-VanillaJs/blob/main/script.js)
+[Javascript](https://github.com/OliYan-debug/Small-Library-VanillaJs/blob/main/Js/script.js)
 
 [Live Preview](https://oliyan-debug.github.io/Small-Library-VanillaJs/)
